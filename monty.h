@@ -53,7 +53,7 @@ typedef struct instructions_
 } instruction_t;
 void e_push(stack_t **head, unsigned int number);
 void e_pall(stack_t **head, unsigned int number);
-
+void e_pint(stack_t **head, unsigned int number);
 
 
 
